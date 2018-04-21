@@ -30,13 +30,13 @@ Disables definition of shorter to type aliases for frequently used macros. By de
 ### Macros Used for Logging
 The logging macros are used when instatiating a logger to get additional information about the source code location where the logging takes place.
 
-### LOGG_FUNCTION
+#### LOGG_FUNCTION
 Gets the name and signature of the function enclosing the current scope. If the scope is outside of any function _top-level_ is returned. Aliases defined, unless disabled:
 
   * LGFUNC
   * lgfunc
 
-### LOGG_SOURCE
+#### LOGG_SOURCE
 Gets the source filename and line number. Aliases defined, unless disabled:
 
   * LGSRC
